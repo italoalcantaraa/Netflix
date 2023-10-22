@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.container-app{
+    background-color: rgb(10, 10, 10);
+    min-height: 100vh;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: #fff;
+
+    div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 650px; 
+        a{
+            cursor: pointer;
+        }
+    }
+    .pesquisa{
+        width: 420px;
+        div{
+            width: 220px;
+            border: 2px solid;
+            border-radius: 3px;
+            padding: 4px;
+        }
+        input{
+            background-color: rgba(240, 248, 255, 0);
+            color: #fff;
+            border: 0 none;
+            font-size: 15px;
+            outline: 0;
+            
+        }
+    }
+}
+::placeholder{
+    color: #ffffff90 ;
+}
+.conteudo{
+    background-image: url('../assets/images/Friends.png');
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .descricao2{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 100px;
+        color: #fff;
+        font-size: 18px;
+       
+        margin: 40px;
+        #titulo{
+            font-size: 70px;
+            font-family: 'Fonte';
+        }
+        button{
+            background-color: #fff;
+            color: black solid;
+            border: none;
+            margin-top: 15px;
+            padding: 8px;
+            width: 120px;
+            font-size: 14px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+    }
+}
+.resposta{
+
+    ul{
+        display: flex;
+        flex-wrap:wrap;
+        padding: 20px;
+        justify-content: flex-start;
+        
+    }
+    #filmes{
+        display: flex;
+        margin-bottom: 15px;
+        
+        img{
+            display: flex;
+            margin: 12px ;
+        }
+    }
+}
